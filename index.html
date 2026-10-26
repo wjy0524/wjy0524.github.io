@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--Jaeyeon Won's personal site-->
+<html lang="en">
+<!-- head section to include metadata and styles -->
+<head>
+    <!-- character encoding -->
+  <meta charset="UTF-8">
+  <!-- this makes the website responsive on different devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Rubric 9: meta description tag that describes the site to search engines -->
+  <meta name="description" content="Jaeyeon Won - Electrical and Computer Engineering student at The University of Texas at Austin. Software engineering, machine learning, and projects.">
+
+  <title>Jaeyeon Won</title>
+
+  <!-- link to external stylesheet -->
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+ 
+    <!-- Rubric 3: Create at least one id, apply it to an element, and style it. -->
+    <!--id "header" applied to this element (styled in stylesheet.css)-->
+    <!-- Rubric 4: Use <div> to create at least two sections of content on the page. (div section 1: header)-->
+  <div id="header">
+    <!-- Rubric 8: include image (I put my profile pic)-->
+    <img id="profile-photo" src="profile.jpg" alt="Photo of Jaeyeon Won">
+    <h1>Jaeyeon Won</h1>
+
+    <!-- Rubric 2: Create at least one class, apply it to at least two elements, and style it. (Create "subtitle" class and apply it to two elements)-->
+    <p class="subtitle">The University of Texas at Austin</p>
+    <p class="subtitle">Electrical and Computer Engineering · Class of 2027</p>
+    <p class="links">
+      <!-- Rubric 5: <a> tags linking to other websites (LinkedIn, GitHub, Portfolio) -->
+      <a href="https://www.linkedin.com/in/jaeyeonwon" target="_blank">LinkedIn</a> ·
+      <a href="https://github.com/wjy0524" target="_blank">GitHub</a> ·
+      <a href="https://jaeyeonwon.vercel.app/" target="_blank">Portfolio</a>
+    </p>
+  </div>
+ 
+  <!-- Rubric 2: class "card" applied to multiple elements (4 divs in the main content share the same style in stylesheet.css)-->
+  <!-- Rubric 4: <div> section #2 - About Me -->
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I'm an ECE student at UT Austin interested in software engineering and machine learning.
+      I enjoy building products end to end, from backend pipelines to the apps people actually use.
+    </p>
+  </div>
+
+  <!-- Rubric 4: <div> section #3 - Experience -->
+  <div class="card">
+    <h2>Experience</h2>
+    <h3>Software Engineer Intern · Samsung SDI</h3>
+    <p class="date">May 2026 – Aug 2026 · Giheung, South Korea</p>
+    <p>Built a real-time battery-monitoring pipeline in Python with anomaly detection and streaming data processing.</p>
+ 
+    <h3>Undergraduate Research Assistant · Kookmin University</h3>
+    <p class="date">May 2025 – Aug 2025 · Seoul, South Korea</p>
+    <p>Researched AI architectures (CNNs, RNNs, Transformers, GANs) for language comprehension and dyslexia detection.</p>
+  </div>
+ 
+  <!-- Rubric 4: <div> section #4 - Projects -->
+  <div class="card">
+    <h2>Projects</h2>
+    <h3>Unitime</h3>
+    <p>A UT Austin student productivity and planning platform built in Swift with a context-aware AI assistant.</p>
+ 
+    <h3>Dystrace</h3>
+    <p>A dyslexia screening web platform (Flutter Web + FastAPI) combining speech processing, eye-tracking, and comprehension testing.</p>
+  </div>
+  <!-- Rubric 4: <div> section #5 - Skills -->
+  <div class="card">
+    <h2>Skills</h2>
+    <p>C, C++, Python, Java, JavaScript, TypeScript, Swift · Firebase · FastAPI · Flutter · Git · scikit-learn · MongoDB · Flask</p>
+  </div>
+ <!--made a footer like a real website-->
+  <p class="footer">© 2026 Jaeyeon Won</p>
+ 
+</body>
+</html>

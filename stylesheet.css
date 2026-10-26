@@ -1,0 +1,99 @@
+/* Jaeyeon Won's personal site stylesheet */
+/* Rubric 1: CSS selector applying styles to an HTML tag (body) */
+/* Rubric 7: Change at least two box model properties of any tag, class, or id. (e.g., margin, padding, border) */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Rubric 1: tag selector for the main heading */
+h1 {
+  margin: 10px 0 4px;
+  font-size: 2.2em;
+}
+ 
+/* Rubric 1: tag selector for section headings (UT burnt orange) */
+h2 {
+  color: #bf5700; /* UT burnt orange */
+  margin-top: 0;
+}
+
+/* Rubric 1: tag selector for sub-headings (job titles, project names) */
+h3 {
+  margin-bottom: 0;
+}
+ 
+/* Rubric 1: default style for all <a> links*/
+a {
+  color: #1a4d8f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Rubric 6: Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a:hover {
+  color: #bf5700;
+  text-decoration: underline;
+}
+ 
+/* Rubric 3: style the element with id "header" */
+/* Rubric 7: box model properties (padding, margin) */
+#header {
+  background-color: #1f2a44;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+ 
+#header a {
+  color: #ffd29d;
+}
+ 
+/* Rubric 6: hover color for links inside the header */
+#header a:hover {
+  color: white;
+}
+ 
+/* Rubric 3: style the image with id "profile-photo" into a circle */
+/* Rubric 7: box model properties (width, height, border) */
+#profile-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+ 
+/* Rubric 2: style the "card" class (same style applied to 4 <div> sections) */
+/* Rubric 7: box model properties (width, margin, padding, border) */
+.card {
+  background-color: white;
+  max-width: 700px;
+  margin: 0 auto 24px;
+  padding: 24px 32px;
+  border: 1px solid #dde2ea;
+  border-radius: 10px;
+}
+ 
+/* Rubric 2: style the "subtitle" class (applied to 2 <p> elements) */
+.subtitle {
+  margin: 2px 0;
+  color: #d0d6e2;
+}
+ 
+.date {
+  margin-top: 0;
+  color: #777;
+  font-size: 0.9em;
+}
+ 
+.footer {
+  text-align: center;
+  color: #888;
+  padding: 20px;
+}
